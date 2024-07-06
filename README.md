@@ -1,18 +1,12 @@
 # chromotools
 Toolkit for chromosome segmentation and manipulation in microscopy images, designed for advanced genetic analysis.
 
-<h1 align="center">
-<img src="https://raw.githubusercontent.com/RodrigoSantosRodrigues/chromotools/blob/main/branding/logos/logo_daftar.png" width="300">
-</h1><br>
-
-
-
 [![Powered by daftar.digital](https://img.shields.io/badge/powered%20by-daftar.digital-orange.svg?style=flat&logo=gravatar)](https://daftar.digital)
 
 [![Reference](https://img.shields.io/badge/Reference-Article%20PDF-blue)](https://raw.githubusercontent.com/daftar/chromotools/main/specs/wvc-2020/_WVC_2020__Rodrigo-J-R-Santos.pdf)
 
 
-[![Coverage Status](https://codecov.io/gh/daftar/chromotools/branch/main/graph/badge.svg?token=YOUR_TOKEN)](https://codecov.io/gh/daftar/chromotools)
+[![Coverage Status](https://codecov.io/gh/daftar/chromotools/branch/main/graph/badge.svg?token=b25f8f3a-c50b-499d-82cb-acb65c7f7224)](https://codecov.io/gh/daftar/chromotools)
 
 
 - **Website:** https://daftar.digital
@@ -34,8 +28,6 @@ Guide
 
 ## Prerequisites
   - Install [Python](https://www.python.org/downloads/), [Pipenv](https://docs.pipenv.org/), [Docker](https://www.docker.com/) and [Postgres](https://www.postgresql.org/) on your machine
-
-
 
 
 # Instalation dependency:
