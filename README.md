@@ -22,7 +22,7 @@ It provides:
 
 Guide
 ----------------------
-[Guide](https://opensource.guide/how-to-contribute/) 
+[Guide](https://opensource.guide/how-to-contribute/)
 
 
 ## start project
