@@ -6,7 +6,9 @@ Toolkit for chromosome segmentation and manipulation in microscopy images, desig
 [![Reference](https://img.shields.io/badge/Reference-Article%20PDF-blue)](https://raw.githubusercontent.com/daftar/chromotools/main/specs/wvc-2020/_WVC_2020__Rodrigo-J-R-Santos.pdf)
 
 
-[![Coverage Status](https://codecov.io/gh/daftar/chromotools/branch/main/graph/badge.svg?token=b25f8f3a-c50b-499d-82cb-acb65c7f7224)](https://codecov.io/gh/daftar/chromotools)
+[![codecov](https://codecov.io/github/RodrigoSantosRodrigues/chromotools/graph/badge.svg?token=IGAGLZ49LI)](https://codecov.io/github/RodrigoSantosRodrigues/chromotools)
+
+![alt text](https://codecov.io/github/RodrigoSantosRodrigues/chromotools/graphs/sunburst.svg?token=IGAGLZ49LI)
 
 
 - **Website:** https://daftar.digital
@@ -15,7 +17,6 @@ Toolkit for chromosome segmentation and manipulation in microscopy images, desig
 - **Contributing:** https://daftar/chromotools/dev/index.html
 - **Bug reports:** https://github.com/daftar/chromotools/issues
 It provides:
-
 
 ----------------------
 
