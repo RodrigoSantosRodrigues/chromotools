@@ -2,7 +2,7 @@
 Toolkit for chromosome segmentation and manipulation in microscopy images, designed for advanced genetic analysis.
 
 <h1 align="center">
-<img src="https://raw.githubusercontent.com/daftar/chromotools/main/branding/logos/logo_daftar.png" width="300">
+<img src="https://raw.githubusercontent.com/RodrigoSantosRodrigues/chromotools/blob/main/branding/logos/logo_daftar.png" width="300">
 </h1><br>
 
 

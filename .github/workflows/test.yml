@@ -1,59 +1,25 @@
-name: CI
+name: Test
 
 on: [push, pull_request]
 
 jobs:
-  build:
+  test:
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        python-version: [3.8]
 
     steps:
-    - uses: actions/checkout@v2
-    - name: Set up Python ${{ matrix.python-version }}
-      uses: actions/setup-python@v2
-      with:
-        python-version: ${{ matrix.python-version }}
-    - name: Install dependencies
-      run: |
-        python -m pip install --upgrade pip
-        pip install -r requirements.txt
-        pip install pytest pytest-cov codecov
-    - name: Run tests
-      run: |
-        pytest --cov=./ > ./test-reports/coverage.xml
+      - name: Checkout code
+        uses: actions/checkout@v2
 
-    - name: Upload coverage to Codecov
-      uses: codecov/codecov-action@v2
-      with:
-        files: ./test-reports/coverage.xml
-        flags: unittests
-        name: codecov-umbrella
-        fail_ci_if_error: true
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.8
 
-# name: Test
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pytest
 
-# on: [push, pull_request]
-
-# jobs:
-#   test:
-#     runs-on: ubuntu-latest
-
-#     steps:
-#       - name: Checkout code
-#         uses: actions/checkout@v2
-
-#       - name: Set up Python
-#         uses: actions/setup-python@v2
-#         with:
-#           python-version: 3.8
-
-#       - name: Install dependencies
-#         run: |
-#           python -m pip install --upgrade pip
-#           pip install pytest
-
-#       - name: Run tests
-#         run: |
-#           pytest
+      - name: Run tests
+        run: |
+          pytest
