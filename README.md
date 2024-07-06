@@ -2,7 +2,7 @@
 Toolkit for chromosome segmentation and manipulation in microscopy images, designed for advanced genetic analysis.
 
 <h1 align="center">
-<img src="https://raw.githubusercontent.com/daftar/chromotools/main/branding/logo/logo_daftar.png" width="300">
+<img src="https://raw.githubusercontent.com/daftar/chromotools/main/branding/logos/logo_daftar.png" width="300">
 </h1><br>
 
 
@@ -12,8 +12,7 @@ Toolkit for chromosome segmentation and manipulation in microscopy images, desig
 [![Reference](https://img.shields.io/badge/Reference-Article%20PDF-blue)](https://raw.githubusercontent.com/daftar/chromotools/main/specs/wvc-2020/_WVC_2020__Rodrigo-J-R-Santos.pdf)
 
 
-[![Coverage Status](https://img.shields.io/codecov/c/github/daftar/chromotools?style=flat-square)](https://codecov.io/gh/daftar/chromotools)
-
+[![Coverage Status](https://codecov.io/gh/daftar/chromotools/branch/main/graph/badge.svg?token=YOUR_TOKEN)](https://codecov.io/gh/daftar/chromotools)
 
 
 - **Website:** https://daftar.digital
@@ -26,13 +25,9 @@ It provides:
 
 ----------------------
 
-Call for Contributions
+Guide
 ----------------------
-
-
-If you are new to contributing to open source, [this
-guide](https://opensource.guide/how-to-contribute/) helps explain why, what,
-and how to successfully get involved.
+[Guide](https://opensource.guide/how-to-contribute/) 
 
 
 ## start project
@@ -43,40 +38,33 @@ and how to successfully get involved.
 
 
 
-# Instalar Dependências:
+# Instalation dependency:
 
-pip install -r requirements.txt  # Se houver um arquivo de requisitos
+pip install -r requirements.txt
 
 
-1. Rodar Testes
-Executar Testes:
+1. Tests
+Execute tests:
 
 python -m unittest discover tests
 
 pytest --html=test-reports/report.html
 
 
-1. Publicar no PyPI
-Instalar Ferramentas Necessárias:
-
+1. Publish in PyPI
 pip install twine wheel
 
 
-Gerar Distribuição:
-
+Generate distribution:
 python setup.py sdist bdist_wheel
 
 
-Publicar no PyPI:
-
+Publish in PyPI:
 twine upload dist/*
 
 
-
 ### Commit Structure
-
 A conventional commit typically follows the following structure:
-
 
 
 - **Type:** Indicates the nature of the commit. Common types include `feat` (for new features), `fix` (for bug fixes), `docs` (for documentation changes), `style` (for code style changes that do not affect behavior), `refactor` (for code refactoring), `test` (for adding or modifying tests), among others.
