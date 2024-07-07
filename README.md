@@ -11,11 +11,6 @@ Toolkit for chromosome segmentation and manipulation in microscopy images, desig
 ![alt text](https://codecov.io/github/RodrigoSantosRodrigues/chromotools/graphs/sunburst.svg?token=IGAGLZ49LI)
 
 
-- **Website:** https://daftar.digital
-- **Documentation:** https://daftar.digital/doc
-- **Source code:** https://github.com/daftar/chromotools
-- **Contributing:** https://daftar/chromotools/dev/index.html
-- **Bug reports:** https://github.com/daftar/chromotools/issues
 It provides:
 
 ----------------------
@@ -95,3 +90,36 @@ Before commits and pushes
 ## utils
 
 https://peps.python.org/pep-0008/
+
+
+## VERSIONS
+
+### 0.1.3
+- **Description:** Toolkit for chromosome segmentation, designed for advanced genetic analysis.
+- **Author:** contato@daftar.digital
+- **Published:** Sun, 07 Jul 2024 02:24:20 GMT
+- **Link:** [0.1.3](https://pypi.org/project/chromotools/0.1.3/)
+
+### 0.1.2
+- **Description:** Toolkit for chromosome segmentation, designed for advanced genetic analysis.
+- **Author:** contato@daftar.digital
+- **Published:** Sun, 07 Jul 2024 02:24:20 GMT
+- **Link:** [0.1.2](https://pypi.org/project/chromotools/0.1.2/)
+
+### 0.1.1
+- **Description:** Toolkit for chromosome segmentation, designed for advanced genetic analysis.
+- **Author:** contato@daftar.digital
+- **Published:** Sun, 07 Jul 2024 02:13:06 GMT
+- **Link:** [0.1.1](https://pypi.org/project/chromotools/0.1.1/)
+
+### 0.1
+- **Description:** Toolkit for chromosome segmentation, designed for advanced genetic analysis.
+- **Author:** contato@daftar.digital
+- **Published:** Sat, 06 Jul 2024 20:26:26 GMT
+- **Link:** [0.1](https://pypi.org/project/chromotools/0.1/)
+
+- **Website:** https://daftar.digital
+- **Documentation:** https://daftar.digital/doc
+- **Source code:** https://github.com/daftar/chromotools
+- **Contributing:** https://daftar/chromotools/dev/index.html
+- **Bug reports:** https://github.com/daftar/chromotools/issues
