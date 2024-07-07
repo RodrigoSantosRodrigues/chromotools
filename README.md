@@ -88,6 +88,9 @@ There are tools that help implement and maintain the Conventional Commits standa
 
 Following these guidelines not only improves team collaboration but also facilitates the maintenance and evolution of software projects over time.
 
+## Linter
+Before commits and pushes
+`pre-commit run --all-files`
 
 ## utils
 
