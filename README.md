@@ -21,15 +21,14 @@ It provides:
 ----------------------
 
 Guide
-----------------------
-[Guide](https://opensource.guide/how-to-contribute/) 
+
+[Guide](https://opensource.guide/how-to-contribute/)
 
 
 ## start project
 
 ## Prerequisites
-  - Install [Python](https://www.python.org/downloads/), [Pipenv](https://docs.pipenv.org/), [Docker](https://www.docker.com/) and [Postgres](https://www.postgresql.org/) on your machine
-
+  - Install [Python](https://www.python.org/downloads/), [Pipenv](https://docs.pipenv.org/)
 
 # Instalation dependency:
 
@@ -88,3 +87,11 @@ Here are some examples of commit messages following the Conventional Commits sta
 There are tools that help implement and maintain the Conventional Commits standard, such as `commitizen` and `git-cz`, which guide developers in creating commit messages in the correct format.
 
 Following these guidelines not only improves team collaboration but also facilitates the maintenance and evolution of software projects over time.
+
+## Linter
+Before commits and pushes
+`pre-commit run --all-files`
+
+## utils
+
+https://peps.python.org/pep-0008/
