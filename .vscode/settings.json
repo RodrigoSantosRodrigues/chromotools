@@ -5,8 +5,12 @@
     "python.linting.enabled": true,
     "python.linting.flake8Args": ["--max-line-length=79"],
     "python.formatting.blackArgs": ["--line-length=79"],
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
     "editor.codeActionsOnSave": {
-      "source.organizeImports": true
+      "source.organizeImports": "explicit"
     },
     "[python]": {
       "editor.defaultFormatter": "ms-python.black-formatter"

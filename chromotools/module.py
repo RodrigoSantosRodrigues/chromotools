@@ -1,2 +1,1 @@
-def add(a, b):
-    return a + b
+from chromotools.core.filters import morphological_filter
