@@ -2,7 +2,7 @@ from setuptools import find_packages, setup
 
 setup(
     name="chromotools",
-    version="0.1.2",
+    version="0.1.3Beta",
     packages=find_packages(),
     install_requires=[],
     author="Rodrigo J. R Santos",

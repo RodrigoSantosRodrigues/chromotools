@@ -87,6 +87,11 @@ Following these guidelines not only improves team collaboration but also facilit
 Before commits and pushes
 `pre-commit run --all-files`
 
+## for update docs
+  - `sphinx-apidoc -o docs/source/ ../chromotools`
+  - `make html`
+
+
 ## utils
 
 https://peps.python.org/pep-0008/
